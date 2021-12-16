@@ -40,6 +40,4 @@
         startActivity(sms);
         SmsManager.getDefault().sendTextMessage(phoneNo, null, messageText.toString(), null, null);
     }
-```  
-Проверим работу приложения на устройстве:  
-![image info](/images/mob_lab11_1.jpg)  
+```   
